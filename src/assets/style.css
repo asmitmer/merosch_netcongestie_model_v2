@@ -1,0 +1,64 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Feb  4 14:46:27 2023
+
+@author: a.smit
+"""
+
+.app-div > * {
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    color: #707070; /* Standard text color */
+}
+
+.app-div, .app-div > * {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    /* Your additional styles */
+}
+
+.app-div {
+    padding: 20px;
+    background-color: #FFFFFF; /* White background */
+}
+
+h1, h2, h3, h4 {
+    color: rgb(0,80,134); /* Blue for headings */
+}
+
+.button {
+    background-color: "#f8f9fa"; /* Orange for buttons */
+    color: rgb(0,80,134);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: "block";
+    width: "100%";
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); /* Softer shadow */
+}
+
+.box-inputs {
+    padding-right: 0px; /* Reduce right padding for oppervlaktes box */
+    padding-left: 0px; /* Reduce left padding for isolatie box */
+}
+
+.dropdown-box .Select-clear-zone {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
