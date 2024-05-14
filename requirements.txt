@@ -4,4 +4,3 @@ pandas==2.2.2
 plotly==5.9.0
 gunicorn
 dash-tools
-gevent
